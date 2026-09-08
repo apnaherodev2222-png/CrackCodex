@@ -129,7 +129,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "8529511149:AAEwRQX2xvS-QBgnBxfqgwLKjWWKKapn6z0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8860939583:AAEQtDZO314KM9bO6LfTYcjmeLjAFymnvq0")
 OWNER_ID = int(os.environ.get("OWNER_ID", 5628671567))
 ADMIN_ID = int(os.environ.get("ADMIN_ID", 5628671567))
 YOUR_USERNAME = '@Xalonexdev03'
