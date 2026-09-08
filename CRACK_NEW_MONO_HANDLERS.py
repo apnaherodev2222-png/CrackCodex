@@ -1188,7 +1188,8 @@ if __name__ == "__main__":
     logger.info("⚡ STARTING 𝙲𝚁𝙰𝙲𝙺 CODEX POLLING LOOP...")
     while True:
         try:
-            bot.infinity_polling(timeout=60, long_polling_timeout=50)
+            bot.infinity_polling(timeout=60, long_polling_timeout=50, skip_pending=True)
         except Exception as e:
-            logger.error(f"Polling loop encountered: {e}")
-            time.sleep(4)
+            logger.error(f"Polling crashed: {e}")
+            time.sleep(5)
+            logger.info("Restarting polling...")
