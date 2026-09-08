@@ -135,7 +135,7 @@ ADMIN_ID = int(os.environ.get("ADMIN_ID", 5628671567))
 YOUR_USERNAME = '@Xalonexdev03'
 UPDATE_CHANNEL = 'https://t.me/pdf_making_hub'
 
-POWERED_BY_TEXT = "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 @CRACK_CoDeX"
+POWERED_BY_TEXT = "𝚙𝚘𝚠𝚎𝚛𝚎𝚍 𝚋𝚢 @Xalonexdev03"
 
 CPU_THRESHOLD = float(os.environ.get("CPU_THRESHOLD", "95.0"))
 MEMORY_THRESHOLD = float(os.environ.get("MEMORY_THRESHOLD", "95.0"))
